@@ -1,0 +1,17 @@
+.container {
+  background-color: rgb(11, 95, 173);
+  margin: 50px 550px;
+  padding: 20px;
+}
+
+.itemCheck:checked + .itemDescription {
+  background-color: rgb(151, 157, 160);
+  text-decoration: line-through;
+}
+
+#addBtn {
+  padding: 8px 14px;
+  font-weight: thin;
+  border: 1px;
+  border-radius: 10%;
+}
